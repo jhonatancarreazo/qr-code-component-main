@@ -1,0 +1,44 @@
+:root {
+    --White: hsl(0, 0%, 100%);
+    --Lightgray: hsl(212, 45%, 89%);
+    --Grayishblue: hsl(220, 15%, 55%);
+     --Darkblue: hsl(218, 44%, 22%);
+}
+
+body{
+    background-color: var(--Lightgray);
+    font-family: 'Outfit', sans-serif;
+}
+
+h1{
+    font-weight: 700;
+    color: var(--Darkblue);
+    text-align: center;
+    font-size:x-large;
+}
+
+.paragraph{
+    font-size: 15px;
+    font-weight: 400;
+    color: var(--Grayishblue);
+    text-align: center;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.card{
+    background-color: var(--White);
+    border-radius: 20px;
+    height: 500px;
+    width: 300px;
+    padding: 20px;
+}
+
+.img-qrcode{
+    width: 100%;
+    border-radius: 10px;
+}
